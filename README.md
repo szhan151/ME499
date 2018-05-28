@@ -32,7 +32,7 @@
   * When four motors input 1, the vehicle move forward. When four motors input 0, the vehicle move backward. When one side of the motors     input 1 and another side of motors input 0, the vehicle will rotate. 
 ### Stage3
 * Write c code for bluetooth 
-  * Initialize the bluetooth, and set baud rate to 230400. Configure TX & RX pins. Configure the UART interrupts.
+  * Initialize the bluetooth, and set baud rate to 9600. Configure TX & RX pins. Configure the UART interrupts.
   * Write command function for bluetooth. Use ASCII table, W as forward, S as backward, A as left turn, D as right turn.
 ### Stage4
 * Write main code and interrupt
