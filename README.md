@@ -1,9 +1,14 @@
-# ME499
-Independent study
-Bluetooth control car
+# Bluetooth control vehicle
 
-Abstract 
+## Project Objective
 
-Introduction
+## Software used 
 
-Method
+## Hardware used 
+
+## Milestones
+### Stage1
+### Stage2
+### Stage3
+
+## Result
