@@ -7,6 +7,7 @@
 ## Hardware used
 * NU32 developboard 
   http://hades.mech.northwestern.edu/index.php/NU32:_Introduction_to_the_PIC32
+  <img src="http://hades.mech.northwestern.edu/images/c/c6/NU32_Nov2015.jpg" width="500">
 * H bridge DRV8835 (Two)
   https://www.robotshop.com/en/drv8835-dual-motor-driver-carrier.html
 * LED (Four)
@@ -43,3 +44,5 @@
 * Write signal control and testing code
   * Add four more pins to control the signal LED. Under the if statement of the direction control, insert LED control command. 
 ## Result
+<img src="http://hades.mech.northwestern.edu/images/c/c6/NU32_Nov2015.jpg"> picture
+![gif]()
