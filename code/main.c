@@ -39,31 +39,6 @@ void pwmInit(){
 
 }
 
-void cmd(void){
-  unsigned char data = 0;
-  if(U1STAbits.URXDA) { // poll to see if there is data to read in RX FIFO
-      data = U1RXREG;
-     NU32_LED1 = 0;
-
-      if(data = 'w'){
-        dir(0);
-        OC1RS = 2000;
-      }else if(data = 'a'){
-        dir(2);
-        OC1RS = 4000;
-      }else if (data = 's') {
-        dir(1);
-        OC1RS = 4000;
-      }else if(data = 'd'){
-        dir(3);
-        OC1RS = 4000;
-      }else{
-        OC1RS = 0;
-        }
-
-  }
-}
-
 
 
 void __ISR(_UART_1_VECTOR, IPL1SOFT) IntUart1Handler(void) {
@@ -99,7 +74,7 @@ void __ISR(_UART_1_VECTOR, IPL1SOFT) IntUart1Handler(void) {
 
       }
     }
-  //  cmd();
+  
 
     IFS0bits.U1RXIF = 0;
 

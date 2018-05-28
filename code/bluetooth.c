@@ -25,25 +25,3 @@ void btInit(void){
   U1MODEbits.ON = 1;
 
 }
-
-void cmd(void){
-
-  static int v = 50;
-  unsigned char data = 0;
-  if(U1STAbits.URXDA) { // poll to see if there is data to read in RX FIFO
-      data = U1RXREG;
-    //  NU32_LED1 = 0;
-      if(data == '2'){
-        dir(0);
-        OC1RS = 4000;
-      }else if(data == '4'){
-        dir(2);
-      }else if (data == '8') {
-        dir(1);
-      }else if(data == '6'){
-        dir(3);
-      }else{
-        OC1RS = 0;
-      }
-  }
-}
