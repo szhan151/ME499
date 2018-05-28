@@ -41,5 +41,5 @@
   * Reset flag at the end of the interrupt. 
 ### Stage5 
 * Write signal control and testing code
-  * Add four more pins to control the signal LED. W
+  * Add four more pins to control the signal LED. Under the if statement of the direction control, insert LED control command. 
 ## Result
