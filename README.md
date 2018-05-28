@@ -13,9 +13,9 @@
   https://en.wikipedia.org/wiki/Light-emitting_diode
 * 1.5 voltage Battery case (Four)
 * 4WD Off Road Robot Smart Car Kit
-  https://www.banggood.com/4WD-WIFI-Crosscountry-Offroad-Robot-Smart-Car-Kit-For-Arduino-p-927973.html?gmcCountry=US&amp;currency=USD&amp;createTmp=1&amp;utm_source=googleshopping&amp;utm_medium=cpc_elc&amp;utm_content=zouzou&amp;utm_campaign=pla-us-ele-prof-1-pc&amp;gclid=EAIaIQobChMIxJe2_tqe2gIVgyWBCh2XiwJxEAkYBiABEgJ67PD_BwE&amp;cur_warehouse=CN&stayold=1&cur_warehouse=CN
+  https://www.banggood.com
 * HC-05 Arduino Wireless Bluetooth Receiver 
-  https://www.amazon.com/dp/B01MQKX7VP/ref=asc_df_B01MQKX7VP5427675/?tag=hyprod-20&amp&creative=395033&amp&creativeASIN=B01MQKX7VP&amp&linkCode=df0&amp&hvadid=167146065113&amp&hvpos=1o1&amp&hvnetw=g&amp&hvrand=15607880664640992515&amp&hvpone=&amp&hvptwo=&amp&hvqmt=&amp&hvdev=c&amp&hvdvcmdl=&amp&hvlocint=&amp&hvlocphy=9021567&amp&hvtargid=pla-362748457327
+  https://www.amazon.com
 ## Milestones
 ### Stage1
 * Assemble the develop board and vehicle 
@@ -31,10 +31,15 @@
   * Set Pin B10 to B13 as input pins. When input 1, the motor rotate clockwise. When input 0, the motor rotate counter clockwise. 
   * When four motors input 1, the vehicle move forward. When four motors input 0, the vehicle move backward. When one side of the motors     input 1 and another side of motors input 0, the vehicle will rotate. 
 ### Stage3
-* Write c code for bluetooth initialize
+* Write c code for bluetooth 
+  * Initialize the bluetooth, and set baud rate to 230400. Configure TX & RX pins. Configure the UART interrupts.
+  * Write command function for bluetooth. Use ASCII table, W as forward, S as backward, A as left turn, D as right turn.
 ### Stage4
-* Write main code and interrupt 
+* Write main code and interrupt
+  * Initialize PWM and Bluetooth in the main function.
+  * Put bluetooth command function in the interrupt.
+  * Reset flag at the end of the interrupt. 
 ### Stage5 
 * Write signal control and testing code
-
+  * Add four more pins to control the signal LED. W
 ## Result
