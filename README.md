@@ -11,7 +11,7 @@
   https://www.robotshop.com/en/drv8835-dual-motor-driver-carrier.html
 * LED (Four)
   https://en.wikipedia.org/wiki/Light-emitting_diode
-* 1.5 voltage Battery case (Four)
+* 1.5 voltage Battery (Four)
 * 4WD Off Road Robot Smart Car Kit
   https://www.banggood.com
 * HC-05 Arduino Wireless Bluetooth Receiver 
