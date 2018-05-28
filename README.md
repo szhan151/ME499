@@ -1,16 +1,17 @@
 # Bluetooth control vehicle
 
 ## Project Objective
-* ssss
+* Develop a bluetooth controlled off-road vehicle control by android app.  
 ## Software used 
 * C
 ## Hardware used
 * NU32 developboard 
   http://hades.mech.northwestern.edu/index.php/NU32:_Introduction_to_the_PIC32
-* H bridge (Two)
-
+* H bridge DRV8835 (Two)
+  https://www.robotshop.com/en/drv8835-dual-motor-driver-carrier.html
 * LED (Four)
-
+  https://en.wikipedia.org/wiki/Light-emitting_diode
+* 1.5 voltage Battery case (Four)
 * 4WD Off Road Robot Smart Car Kit
   https://www.banggood.com/4WD-WIFI-Crosscountry-Offroad-Robot-Smart-Car-Kit-For-Arduino-p-927973.html?gmcCountry=US&amp;currency=USD&amp;createTmp=1&amp;utm_source=googleshopping&amp;utm_medium=cpc_elc&amp;utm_content=zouzou&amp;utm_campaign=pla-us-ele-prof-1-pc&amp;gclid=EAIaIQobChMIxJe2_tqe2gIVgyWBCh2XiwJxEAkYBiABEgJ67PD_BwE&amp;cur_warehouse=CN&stayold=1&cur_warehouse=CN
 * HC-05 Arduino Wireless Bluetooth Receiver 
