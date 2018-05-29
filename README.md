@@ -38,7 +38,7 @@
 ### Stage3
 * Write c code for bluetooth 
   * Initialize the bluetooth, and set baud rate to 9600. Configure TX & RX pins. Configure the UART interrupts.
-  * Write command function for bluetooth. Use ASCII table, W as forward, S as backward, A as left turn, D as right turn.
+  * Write command function for bluetooth. Use ASCII table, F as forward, B as backward, L as left turn, R as right turn.
 ### Stage4
 * Write main code and interrupt
   * Initialize PWM and Bluetooth in the main function.
