@@ -4,6 +4,7 @@
 * Develop a bluetooth controlled off-road vehicle control by android app.  
 ## Software used 
 * C
+* Arduino Bluetooth RC Car (Andriod app)
 ## Hardware used
 * NU32 developboard 
   http://hades.mech.northwestern.edu/index.php/NU32:_Introduction_to_the_PIC32
@@ -18,6 +19,9 @@
 * HC-05 Arduino Wireless Bluetooth Receiver 
   https://www.amazon.com
 ## Milestones
+### Stage0 
+* Electrical skematic 
+
 ### Stage1
 * Assemble the develop board and vehicle 
   * Output PWM signal from Pin D0. And four motor control by the same PWM signal.
@@ -46,6 +50,9 @@
 ### Stage6 
 * Choose app for the HC-05 bluetooth
   * Reference from https://sites.google.com/site/bluetoothrccar/home/4PuttingItAllTogetherAndTheAndroidApplication
+       <img src="https://github.com/szhan151/ME499/blob/master/source/control_panal.png" width="400">
 ## Result
+   <img src="https://github.com/szhan151/ME499/blob/master/source/IMG_2404.JPG" width="300"><img src="https://github.com/szhan151/ME499/blob/master/source/IMG_2405.JPG" width="300">
+
 
 ![gif]()
