@@ -53,28 +53,28 @@ void __ISR(_UART_1_VECTOR, IPL1SOFT) IntUart1Handler(void) {
  if(U1STAbits.URXDA) { // poll to see if there is data to read in RX FIFO
       data = U1RXREG;
 
-      if(data == 'w'){
+      if(data == 'F'){
         dir(0);
         OC1RS = 4000;
         LATBbits.LATB1 = 1;
-      }else if(data == 'd'){
+      }else if(data == 'R'){
         dir(2);
         LATBbits.LATB2 = 1;
         OC1RS = 4000;
-      }else if (data == 's') {
+      }else if (data == 'B') {
         dir(1);
         LATBbits.LATB4 = 1;
         OC1RS = 4000;
-      }else if(data == 'a'){
+      }else if(data == 'L'){
         dir(3);
         LATBbits.LATB3 = 1;
         OC1RS = 4000;
-      }else if(data == 'q'){
+      }else if(data == 'D'){
         OC1RS = 0;
 
       }
     }
-  
+
 
     IFS0bits.U1RXIF = 0;
 
