@@ -53,7 +53,8 @@
   * Reference from https://sites.google.com/site/bluetoothrccar/home/4PuttingItAllTogetherAndTheAndroidApplication
        <img src="https://github.com/szhan151/ME499/blob/master/source/control_panal.png" width="400">
 ## Result
+### Picture of vehicle
    <img src="https://github.com/szhan151/ME499/blob/master/source/IMG_2404.JPG" width="300"><img src="https://github.com/szhan151/ME499/blob/master/source/IMG_2405.JPG" width="300">
 
-
+### GIF of operation
 ![gif](https://github.com/szhan151/ME499/blob/master/source/demo.gif)
