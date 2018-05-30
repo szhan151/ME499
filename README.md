@@ -22,6 +22,7 @@
 ### Stage1 
 * Electrical skematic 
 
+  <img src="https://github.com/szhan151/ME499/blob/master/source/schemetic.png" width="500">
 ### Stage2
 * Assemble the develop board and vehicle 
   * Output PWM signal from Pin D0. And four motor control by the same PWM signal.
